@@ -6,9 +6,9 @@ typedef struct _tag_SqList
 {
 	int length;
 	int capacity;
-	//unsigned int **node;
+	unsigned int **node;
 	//unsigned int *node[];
-	unsigned int *node;
+	//unsigned int *node;
 
 }SqList;
 
